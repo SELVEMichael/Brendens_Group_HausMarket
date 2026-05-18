@@ -5,7 +5,7 @@ session_start();
 include '../config/db.php';
 
 if (!isset($_SESSION['user_id'])) {
-    header("Location: /hausmarket/frontend/login.php");
+    header("Location: /Brendens_Group_HausMarket/frontend/login.php");
     exit();
 }
 
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (in_array($image_type, $allowed_types)) {
 
             if (move_uploaded_file($_FILES['uploaded_profile_image']['tmp_name'], $target_file)) {
-                $profile_image = "/hausmarket/frontend/uploads/" . $image_name;
+                $profile_image = "/Brendens_Group_HausMarket/frontend/uploads/" . $image_name;
             } else {
                 die("Error uploading profile image.");
             }
