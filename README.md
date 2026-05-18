@@ -98,7 +98,7 @@ Supported formats:
 # Folder Structure
 
 ```bash
-hausmarket/
+Brendens_Group_HausMarket/
 │
 ├── config/
 │   └── db.php
@@ -197,7 +197,7 @@ database/schema.sql
 Open:
 
 ```bash
-http://localhost/hausmarket/frontend/
+http://localhost/Brendens_Group_HausMarket/frontend/
 ```
 
 ---
