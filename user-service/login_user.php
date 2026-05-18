@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 } else {
 
-    header("Location: /hausmarket/frontend/index.php");
+    header("Location: /Brendens_Group_HausMarket/frontend/index.php");
 }
 
 exit();
