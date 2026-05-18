@@ -1,4 +1,3 @@
-
 <?php 
 session_start();
 
@@ -29,7 +28,7 @@ if (!empty($_FILES['uploaded_profile_image']['name'])) {
 
         if (move_uploaded_file($_FILES['uploaded_profile_image']['tmp_name'], $target_file)) {
 
-            $profile_image = "/hausmarket/frontend/uploads/" . $image_name;
+            $profile_image = "/Brendens_Group_HausMarket/frontend/uploads/" . $image_name;
 
         } else {
 
@@ -76,7 +75,7 @@ $_SESSION['profile_image'] = $profile_image;
 
 } else {
 
-    header("Location: /hausmarket/frontend/index.php");
+    header("Location: /Brendens_Group_HausMarket/frontend/index.php");
 }
 
     } else {
