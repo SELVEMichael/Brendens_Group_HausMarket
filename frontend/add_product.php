@@ -22,7 +22,7 @@ if (!isset($_SESSION['user_id'])) {
 <div class="container">
     <<h1 class="page-title"> Sell a Product </h1>
 
-    <form action="/hausmarket/product-service/create_product.php"
+    <form action="/Brendens_Group_HausMarket/product-service/create_product.php"
       method="POST"
       enctype="multipart/form-data">
 

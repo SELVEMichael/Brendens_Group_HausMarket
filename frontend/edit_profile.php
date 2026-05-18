@@ -58,7 +58,7 @@ $user = $result->fetch_assoc();
             Update your information and manage your profile.
         </p>
 
-        <form action="/hausmarket/user-service/update_profile.php"
+        <form action="/Brendens_Group_HausMarket/user-service/update_profile.php"
               method="POST"
               enctype="multipart/form-data">
 

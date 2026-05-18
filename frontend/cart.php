@@ -8,9 +8,9 @@ if (!isset($_SESSION['user_id'])) {
     /* SAVE REDIRECT */
 
     $_SESSION['redirect_after_login'] =
-        "/hausmarket/frontend/cart.php?id=" . $_GET['id'];
+        "/Brendens_Group_HausMarket/frontend/cart.php?id=" . $_GET['id'];
 
-    header("Location: /hausmarket/frontend/login.php");
+    header("Location: /Brendens_Group_HausMarket/frontend/login.php");
     exit();
 }
 ?>

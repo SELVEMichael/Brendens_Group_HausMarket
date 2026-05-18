@@ -36,7 +36,7 @@ session_start();
             Join HausMarket and start buying or selling today.
         </p>
 
-        <form action="/hausmarket/user-service/create_user.php"
+        <form action="/Brendens_Group_HausMarket/user-service/create_user.php"
               method="POST"
               enctype="multipart/form-data">
 

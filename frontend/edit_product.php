@@ -43,7 +43,7 @@ if (!$product) {
 
     <div class="card">
 
-        <form action="/hausmarket/product-service/update_product.php"
+        <form action="/Brendens_Group_HausMarket/product-service/update_product.php"
       method="POST"
       enctype="multipart/form-data">
 
