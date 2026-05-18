@@ -75,14 +75,14 @@ $result = $conn->query($sql);
     <!-- OWNER BUTTONS -->
 
     <a class="edit-btn"
-       href="/hausmarket/frontend/edit_product.php?id=<?php echo $row['id']; ?>">
+       href="/Brendens_Group_HausMarket/frontend/edit_product.php?id=<?php echo $row['id']; ?>">
 
         ✏ Edit
 
     </a>
 
     <a class="delete-btn"
-       href="/hausmarket/product-service/delete_product.php?id=<?php echo $row['id']; ?>"
+       href="/Brendens_Group_HausMarket/product-service/delete_product.php?id=<?php echo $row['id']; ?>"
        onclick="return confirm('Delete this product?');">
 
         🗑 Delete
@@ -94,14 +94,14 @@ $result = $conn->query($sql);
     <!-- BUYER BUTTONS -->
 
     <a class="cart-btn"
-    href="/hausmarket/frontend/cart.php?id=<?php echo $row['id']; ?>">
+    href="/Brendens_Group_HausMarket/frontend/cart.php?id=<?php echo $row['id']; ?>">
 
         🛒 Add to Cart
 
     </a>
 
     <a class="seller-btn"
-       href="/hausmarket/frontend/seller_profile.php?username=<?php echo $row['username']; ?>">
+       href="/Brendens_Group_HausMarket/frontend/seller_profile.php?username=<?php echo $row['username']; ?>">
 
         👤 View Seller
 

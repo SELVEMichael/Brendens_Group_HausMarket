@@ -36,7 +36,7 @@ session_start();
             Welcome back! Please sign in to continue.
         </p>
 
-        <form action="/hausmarket/user-service/login_user.php"
+        <form action="/Brendens_Group_HausMarket/user-service/login_user.php"
               method="POST">
 
             <label>Email</label>
