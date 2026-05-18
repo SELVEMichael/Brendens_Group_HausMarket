@@ -6,6 +6,6 @@ session_unset();
 
 session_destroy();
 
-header("Location: /hausmarket/frontend/index.php");
+header("Location: /Brendens_Group_HausMarket/frontend/index.php");
 exit();
 ?>
